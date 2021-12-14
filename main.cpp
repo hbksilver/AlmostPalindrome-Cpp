@@ -1,7 +1,5 @@
 #include <iostream>
-//#include<bits/stdc++.h>
 using namespace std;
-
 //conversion function
 bool checkPalindrome(string myString){
 
@@ -26,7 +24,6 @@ int main()
             cout << "The string is almost palindrome." << endl;
         else
             cout << "The string is not almost palindrome." << endl;
-        //return 0;
     }
     while (keepGoing !=0);
 }
